@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef _NICENANO_H
-#define _NICENANO_H
+#ifndef _AHOKORE_H
+#define _AHOKORE_H
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
 
@@ -45,8 +45,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER  "Nice Keyboards"
-#define BLEDIS_MODEL         "nice!nano"
+#define BLEDIS_MANUFACTURER  "dezli"
+#define BLEDIS_MODEL         "Ahokore"
 
 //--------------------------------------------------------------------+
 // USB
@@ -55,7 +55,7 @@
 #define USB_DESC_UF2_PID       0x00B3
 #define USB_DESC_CDC_ONLY_PID  0x00B3
 
-#define UF2_PRODUCT_NAME  "nice!nano"
+#define UF2_PRODUCT_NAME  "Ahokore"
 #define UF2_VOLUME_LABEL  "NICENANO"
 #define UF2_BOARD_ID      "nRF52840-nicenano-v1"
 #define UF2_INDEX_URL     "https://docs.nicekeyboards.com/#/nice!nano/"
