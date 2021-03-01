@@ -58,6 +58,6 @@
 #define UF2_PRODUCT_NAME  "Ahokore"
 #define UF2_VOLUME_LABEL  "AHOKORE"
 #define UF2_BOARD_ID      "nRF52840-ahokore-v2"
-#define UF2_INDEX_URL     "https://docs.nicekeyboards.com/#/nice!nano/"
+#define UF2_INDEX_URL     "https://dez.li"
 
 #endif // _AHOKORE_H
