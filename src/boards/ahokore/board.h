@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2020 Nick Winans
+ * Copyright (c) 2020 dezli
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +31,7 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER       1
-#define LED_PRIMARY_PIN   _PINNUM(0, 15) // Blue
+#define LED_PRIMARY_PIN   _PINNUM(1, 15) // Blue
 #define LED_STATE_ON      1
 
 /*------------------------------------------------------------------*/
@@ -56,8 +56,8 @@
 #define USB_DESC_CDC_ONLY_PID  0x00B3
 
 #define UF2_PRODUCT_NAME  "Ahokore"
-#define UF2_VOLUME_LABEL  "NICENANO"
-#define UF2_BOARD_ID      "nRF52840-nicenano-v1"
+#define UF2_VOLUME_LABEL  "AHOKORE"
+#define UF2_BOARD_ID      "nRF52840-ahokore-v2"
 #define UF2_INDEX_URL     "https://docs.nicekeyboards.com/#/nice!nano/"
 
-#endif // _NICENANO_H
+#endif // _AHOKORE_H
